@@ -2,7 +2,7 @@ MONGO_VERS = '1.3.1' unless defined? MONGO_VERS
 
 Gem::Specification.new do |s|
   s.name = %q{mongo_session_store}
-  s.version = `cat VERSION`
+  s.version = "2.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Nicolas M\303\251rouze", "Tony Pitale", "Chris Brickley"]
